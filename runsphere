@@ -3,7 +3,6 @@ from sphere import sphere
 import argparse
 
 if __name__ == "__main__":
-    radius
     optparser = argparse.ArgumentParser(description='Sphere properties computation')
     optparser.add_argument('radius', type=float, nargs='?', default=None, help='Sphere radius')
     optparser.add_argument('-v', action='store_true', help='get volume')
